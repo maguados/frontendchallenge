@@ -26,8 +26,8 @@ h1 {
   text-align: center;
   color: white;
   padding-top: 15px
-
 }
+
 
 ul {
   list-style-type: none;
@@ -40,7 +40,12 @@ li {
   box-sizing: border-box;
   display: block;
   margin-bottom: 1px;
-  padding: 4%;
+  padding: 5%;
+}
+
+h3 {
+  font-size: 1.3em;
+  /*padding: 30px; why is padding not govong me pore space between lines?*/
 }
 
 img {
@@ -48,12 +53,6 @@ img {
   height: auto;
 }
 
-
-h3 {
-  font-size: 1.4em;
-  text-align: left;
-  padding: 5px;
-}
 
 .fas.fa-chevron-left {
   color: white;
@@ -68,7 +67,15 @@ h3 {
 .fas.fa-bus {
   display: inline-block;
   float: left;
-  padding-left: 5px;
+  transform: scale(2,2);
+}
+
+#on-time {
+  color: #89d065;
+}
+
+#late {
+  color: #ff1500;
 }
 
 .bus-number {
@@ -76,6 +83,7 @@ h3 {
   float: left;
   padding-left: 2%;
 }
+
 
 .location {
   display: inline-block;
@@ -93,4 +101,5 @@ h3 {
 .fas.fa-chevron-right {
   display: inline-block;
   float: right;
+  transform: scale(1.5,1.5);
 }
