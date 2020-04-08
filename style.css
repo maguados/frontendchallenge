@@ -3,25 +3,21 @@ box-sizing: border-box;
 }
 
 body {
-background-color: #DADADA;
-font-family: sans-serif;
-font-size: 10px;
+  background-color: #DADADA;
+  font-family: sans-serif;
+  font-size: 10px;
 }
 
 .container {
-margin: 0auto;
-width: 375px;
-box-sizing: border-box; /*No se*/
-display: block; /*No se*/
-
+  margin: 0auto;
+  width: 375px;
 }
 
 nav {
-margin: 0 auto;
-position: fixed;
-width: 375px;
-background-color: #027780;
-
+  margin: 0 auto;
+  position: fixed;
+  width: 375px;
+  background-color: #027780;
 }
 
 h1 {
@@ -39,6 +35,14 @@ ul {
   padding: 0;
 }
 
+li {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 1px;
+  padding: 4%;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -52,10 +56,41 @@ h3 {
 }
 
 .fas.fa-chevron-left {
-color: white;
-width: 5%;
-float: left;
-transform: scale(2,2);
-padding-left: 2%;
-padding-bottom: 3%
+  color: white;
+  width: 5%;
+  display: inline-block;
+  float: left;
+  transform: scale(2,2);
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+.fas.fa-bus {
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+}
+
+.bus-number {
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+}
+
+.location {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding-left: 2%;
+}
+
+.time {
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+}
+
+.fas.fa-chevron-right {
+  display: inline-block;
+  float: right;
 }
