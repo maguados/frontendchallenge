@@ -44,7 +44,8 @@ li {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  color: #424443;
   /*padding: 30px; why is padding not govong me pore space between lines?*/
 }
 
@@ -64,6 +65,22 @@ img {
   padding-bottom: 3%;
 }
 
+
+.direction {
+  background-color: #3bba9c;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 1px;
+  padding: 4%;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: white;
+
+}
+
 .fas.fa-bus {
   display: inline-block;
   float: left;
@@ -74,6 +91,10 @@ img {
   color: #89d065;
 }
 
+#reroute {
+  color: #f0A202;
+}
+
 #late {
   color: #ff1500;
 }
@@ -82,6 +103,7 @@ img {
   display: inline-block;
   float: left;
   padding-left: 2%;
+  font-weight: 900;
 }
 
 
@@ -102,4 +124,5 @@ img {
   display: inline-block;
   float: right;
   transform: scale(1.5,1.5);
+  color: #424443;
 }
