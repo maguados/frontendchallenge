@@ -28,16 +28,13 @@ h1 {
   padding-top: 15px
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+img {
+  width: 100%;
+  height: auto;
 }
 
 li {
   background-color: #fff;
-  box-sizing: border-box;
   display: block;
   margin-bottom: 1px;
   padding: 5%;
@@ -46,14 +43,7 @@ li {
 h3 {
   font-size: 1.4em;
   color: #424443;
-  /*padding: 30px; why is padding not govong me pore space between lines?*/
 }
-
-img {
-  width: 100%;
-  height: auto;
-}
-
 
 .fas.fa-chevron-left {
   color: white;
@@ -75,10 +65,9 @@ img {
 }
 
 h2 {
-  font-size: 1.4em;
-  font-weight: 600;
+  font-size: 1.6em;
+  font-weight: 500;
   color: white;
-
 }
 
 .fas.fa-bus {
@@ -116,13 +105,6 @@ h2 {
 
 .time {
   display: inline-block;
-  float: left;
-  padding-left: 2%;
-}
-
-.fas.fa-chevron-right {
-  display: inline-block;
   float: right;
-  transform: scale(1.5,1.5);
-  color: #424443;
+  padding-left: 2%;
 }
