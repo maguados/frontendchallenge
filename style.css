@@ -28,23 +28,6 @@ h1 {
   padding-top: 15px
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-li {
-  background-color: #fff;
-  display: block;
-  margin-bottom: 1px;
-  padding: 5%;
-}
-
-h3 {
-  font-size: 1.4em;
-  color: #424443;
-}
-
 .fas.fa-chevron-left {
   color: white;
   width: 5%;
@@ -52,7 +35,44 @@ h3 {
   float: left;
   transform: scale(2,2);
   padding-left: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 189px;
+}
+
+.inline {
+  padding-bottom: 29px !important;
+}
+
+.fas.fa-walking {
+  transform: scale(1.5,1.5);
+  color: yellow;
+  margin-left: -20px;
+
+}
+
+.distance {
+  font-size: 1em;
+  font-family: Arial;
+  margin-left: 5px;
+  color: yellow;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+li {
+  background-color: #fff;
+  display: block;
+  margin-bottom: 1px;
+  padding: 18px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #424443;
 }
 
 
@@ -91,7 +111,7 @@ h2 {
 .bus-number {
   display: inline-block;
   float: left;
-  padding-left: 2%;
+  margin-left: 10px;
   font-weight: 900;
 }
 
@@ -100,7 +120,7 @@ h2 {
   display: inline-block;
   float: left;
   text-align: center;
-  padding-left: 2%;
+  margin-left: 15px;
 }
 
 .time {
